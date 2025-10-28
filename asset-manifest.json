@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/guna/portfolio.git/static/css/main.f985539a.css",
-    "main.js": "/guna/portfolio.git/static/js/main.002618a9.js",
-    "static/js/453.f5c1125e.chunk.js": "/guna/portfolio.git/static/js/453.f5c1125e.chunk.js",
-    "static/media/orangedev.jpg": "/guna/portfolio.git/static/media/orangedev.0cb483a4e3e1f111df55.jpg",
-    "index.html": "/guna/portfolio.git/index.html",
-    "main.f985539a.css.map": "/guna/portfolio.git/static/css/main.f985539a.css.map",
-    "main.002618a9.js.map": "/guna/portfolio.git/static/js/main.002618a9.js.map",
-    "453.f5c1125e.chunk.js.map": "/guna/portfolio.git/static/js/453.f5c1125e.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.d3c28a77.css",
+    "main.js": "/portfolio/static/js/main.6f6306c7.js",
+    "static/js/453.f5c1125e.chunk.js": "/portfolio/static/js/453.f5c1125e.chunk.js",
+    "static/media/orangedev.jpg": "/portfolio/static/media/orangedev.0cb483a4e3e1f111df55.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.d3c28a77.css.map": "/portfolio/static/css/main.d3c28a77.css.map",
+    "main.6f6306c7.js.map": "/portfolio/static/js/main.6f6306c7.js.map",
+    "453.f5c1125e.chunk.js.map": "/portfolio/static/js/453.f5c1125e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f985539a.css",
-    "static/js/main.002618a9.js"
+    "static/css/main.d3c28a77.css",
+    "static/js/main.6f6306c7.js"
   ]
 }
