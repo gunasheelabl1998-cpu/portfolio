@@ -1,0 +1,50 @@
+:root {
+  /* --burgundy: #8B008B;
+  --burgundy-light: #F49AC2;
+  --deep-magenta: #CC00CC;
+  --hot-magenta: #FF1DCE;
+  --light-magenta: #FF80FF; */
+   --burgundy: #ea7725;
+  --burgundy-light: #e18e52;
+  --deep-magenta: #b85739;
+  --hot-magenta: #cf7633;
+  --light-magenta: #e18e52;
+  --black: #000000;
+  --white: #ffffff;
+}
+
+/* Ensure full height layout */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.8;
+  letter-spacing: 0.3px;
+}
+
+h1,
+h2 {
+  font-family: 'DM Serif Display', serif;
+}
+
+/* Flex container for layout */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--black) 0%, #1a0008 50%, var(--black) 100%);
+}
+
+/* Main content grows to fill space */
+main {
+  flex: 1;
+  padding: 40px 20px;
+}

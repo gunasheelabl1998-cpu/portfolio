@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M200 180 C 180 240, 220 240, 200 300" stroke="#800020" stroke-width="4" fill="none">
+    <animate attributeName="d" dur="3s" repeatCount="indefinite"
+      values="M200 180 C 180 240, 220 240, 200 300;
+              M200 180 C 220 240, 180 240, 200 300;
+              M200 180 C 180 240, 220 240, 200 300"/>
+  </path>
+  
+  <!-- Head -->
+  <circle cx="200" cy="140" r="60" fill="#800020"/>
+  
+  <!-- Hair -->
+  <path d="M140 140 Q 200 80 260 140" fill="#2B0000"/>
+  <path d="M140 160 C 160 200, 240 200, 260 160" fill="#2B0000"/>
+  
+  <!-- Face -->
+  <circle cx="180" cy="130" r="5" fill="white"/> <!-- Left eye -->
+  <circle cx="220" cy="130" r="5" fill="white"/> <!-- Right eye -->
+  <path d="M190 155 Q 200 165 210 155" stroke="white" stroke-width="3" fill="none"/> <!-- Smile -->
+  
+  <!-- Laptop -->
+  <rect x="160" y="250" width="80" height="50" fill="#333" rx="5">
+    <animate attributeName="transform" attributeType="XML"
+      type="rotate"
+      from="-2 200 275"
+      to="2 200 275"
+      dur="2s"
+      repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Code symbols -->
+  <g fill="#800020">
+    <text x="170" y="280" font-family="monospace" font-size="12" fill="white">
+      <tspan>&lt;/&gt;</tspan>
+      <animate attributeName="opacity"
+        values="0;1;0"
+        dur="2s"
+        repeatCount="indefinite"/>
+    </text>
+  </g>
+  
+  <!-- Sparkles -->
+  <g>
+    <circle cx="140" cy="220" r="3" fill="#800020">
+      <animate attributeName="opacity"
+        values="0;1;0"
+        dur="1.5s"
+        repeatCount="indefinite"/>
+    </circle>
+    <circle cx="260" cy="220" r="3" fill="#800020">
+      <animate attributeName="opacity"
+        values="0;1;0"
+        dur="1.5s"
+        begin="0.5s"
+        repeatCount="indefinite"/>
+    </circle>
+    <circle cx="200" cy="200" r="3" fill="#800020">
+      <animate attributeName="opacity"
+        values="0;1;0"
+        dur="1.5s"
+        begin="1s"
+        repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

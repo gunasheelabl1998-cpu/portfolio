@@ -1,0 +1,55 @@
+.header {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: var(--white);
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px var(--burgundy);
+  border-bottom: 2px solid var(--burgundy);
+}
+
+.header h1 {
+  font-size: 2rem;
+  background: linear-gradient(45deg, var(--burgundy) 0%, var(--burgundy-light) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.header nav a {
+  margin: 0 15px;
+  color: var(--white);
+  font-weight: 500;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  position: relative;
+}
+
+.header nav a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: var(--burgundy);
+  transition: width 0.3s ease;
+}
+
+.header nav a:hover {
+  color: var(--burgundy-light);
+}
+
+/* .header nav a:hover::after {
+  width: 100%;
+} */
+
+.header nav a.active {
+  color: var(--burgundy-light);
+}
+
+.header nav a.active::after {
+  width: 100%;
+}
