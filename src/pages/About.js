@@ -14,10 +14,12 @@ function About() {
                 <div className="about-card">
                     <h3>Experience</h3>
                     <ul>
-                        <li>4+ years Web, Smart Tv and Mobile development</li>
+                        <li>4+ years of experience in Web, Smart Tv and Mobile development</li>
                         <li>Led development of cross-platform streaming applications</li>
                         <li>Expertise in React, React Native, Redux, and JavaScript ecosystem</li>
                         <li>Strong background in responsive design and UI/UX</li>
+                        <li>Worked in Agile methodology with cross-functional teams</li>
+                        <li>Created reusable component libraries for scalable front-end architecture</li>
                     </ul>
                 </div>
 
@@ -36,7 +38,7 @@ function About() {
                 </div>
 
                 <div className="about-card">
-                    <h3>Specialties</h3>
+                    <h3>Specialities</h3>
                     <ul>
                         <li>Media streaming optimization</li>
                         <li>Tv Guide implementation</li>
@@ -50,7 +52,7 @@ function About() {
                 <div className="about-card">
                     <h3>Achievements</h3>
                     <ul>
-                        <li>Successfully deployed OTT apps</li>
+                        <li>Successfully delivered OTT apps</li>
                         <li>Reduced app load time by 40%</li>
                         <li>Achieved 85%+ unit test coverage</li>
                         <li>Implemented CI/CD pipelines</li>

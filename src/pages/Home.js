@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 function Home() {
   const navigate = useNavigate();
   return (
-    <div className="hero">
+    <div className="hero section">
       <div className="content-grid">
         <div className="text-content">
           <h1 className="highlight">Hi, I'm <span className="highlight">Gunasheela </span></h1>
