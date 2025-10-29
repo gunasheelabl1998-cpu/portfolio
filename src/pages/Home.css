@@ -59,15 +59,8 @@
 
 .tagline {
   font-size: 1.5rem;
-  color: var(--white);
   margin-bottom: 20px;
-  /* background: var(--burgundy); */
-  background: var(--hot-magenta);
-
-  /* background: linear-gradient(45deg, var(--burgundy) 0%, var(--burgundy-light) 100%); */
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  color: var(--hot-magenta);
 }
 
 .summary {
